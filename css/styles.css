@@ -1,0 +1,41 @@
+.body{
+    color: #212121;
+    font-family: Roboto, sans-serif;
+}
+.site-nav .header-link{
+    color: #212121;
+}
+.site-nav .header-link:hover,
+.site-nav .header-link:focus{
+    color: #2196F3;
+}
+.site-nav .header-link.current{
+    color: #2196f3;
+}
+
+.header-number-link{
+    color: #757575;
+}
+.header-number-link:hover,
+.header-number-link:focus{
+    color: #2196F3;
+}
+.services-button{
+    background-color: #2196F3;
+    color: #fff;
+}
+.services-button:hover,
+.services-button:focus{
+    background-color: #188CE8;
+    color: #fff;
+    border-color: #000;
+}
+.button-menu-section{
+    background-color: #F5F4FA;
+    color: #000;
+}
+.button-menu-section:hover,
+.button-menu-section:focus{
+    background-color: #2196F3;
+    color: #fff;
+}
