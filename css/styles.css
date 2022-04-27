@@ -1,6 +1,7 @@
 .body{
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     border-color: #212121;
+    cursor: pointer;
 }
 .site-nav .header-link{
     color: #212121;
@@ -14,6 +15,12 @@
 }
 
 .header-number-link{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;    
     color: #757575;
 }
 .header-number-link:hover,
@@ -33,12 +40,19 @@
 }
 .button-menu-section{
     background-color: #F5F4FA;
-    color: #000;
+    color: #212121;
+    border: 1px solid #F5F4FA;
 }
-.button-menu-section:hover,
 .button-menu-section:focus{
+    background-color: #F5F4FA;
+    color: #212121;
+    border: 1px solid #000000;
+}
+.button-menu-section:hover{
     background-color: #2196F3;
     color: #fff;
+    border: 1px solid #2196f3;
+
 }
 /* index main */
 .webstudio {
@@ -73,7 +87,6 @@
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
@@ -84,8 +97,6 @@
     font-size: 16px;
     line-height: 30px;
     display: flex;
-    align-items: center;
-    text-align: center;
     letter-spacing: 0.06em;
     color: #FFFFFF;  
 }
@@ -100,8 +111,6 @@
 }
 .p-Benefits{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
@@ -113,7 +122,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -123,7 +131,6 @@
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #212121;
 }
@@ -133,17 +140,13 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.03em;   
     color: #212121;
 }
 .position{
     font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    text-align: center;
     letter-spacing: 0.03em;
     color: #757575;
 }
@@ -156,4 +159,37 @@
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
-     
+.maps:hover,
+.maps:focus{
+    color: #2196F3;
+}
+.footer-number-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-number-link:hover,
+.footer-number-link:focus {
+    color: #2196F3;
+}
+.job{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;   
+    color: #212121;
+}  
+ .sites{
+    font-family: 'Roboto';
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+ }
+        
