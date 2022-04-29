@@ -1,8 +1,27 @@
-.body{
-    font-family: 'Roboto', sans-serif;
-    border-color: #212121;
-    cursor: pointer;
+:root{
+ --primary-text-color: color: #212121;
+ --title-text-color: color: #757575;
+ --accent-color: color: #2196F3;
+ --button-color: color: #F5F4FA;
 }
+body{
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    background-color: #fff;
+    font-size: 14px;
+    letter-spacing: 0,01;
+}
+
+.adress{
+    font-style: normal;
+}
+.list{
+    list-style: none;
+}
+.link{
+    text-decoration: none;
+}
+/* --------------------------Button--------------------------------- */
 .site-nav .header-link{
     color: #212121;
 }
@@ -15,11 +34,9 @@
 }
 
 .header-number-link{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;    
     color: #757575;
 }
@@ -28,6 +45,7 @@
     color: #2196F3;
 }
 .services-button{
+    font-family: 'Roboto', sans-serif;
     background-color: #2196F3;
     color: #fff;
     border: 1px solid #2196F3;
@@ -36,14 +54,12 @@
 .services-button:focus{
     background-color: #188CE8;
     color: #fff;
-    border: 1px solid #000000;
 }
 .button-menu-section{
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 1,62;
     letter-spacing: 0.03em;
     background-color: #F5F4FA;
     color: #212121;
@@ -60,108 +76,99 @@
     border: 1px solid #2196f3;
 
 }
-/* index main */
-.webstudio {
+/* ------------------------------------------------------index main------------------------------------------------- */
+.web {
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1,19;
     letter-spacing: 0.03em;
+    color: #2196F3;
+}
+.studio{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    color: #000000;
 }
 
 .site-nav {
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.02em;
+}
+.hero{
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 
-.gmail-and-number {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}
 .decision{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
-    line-height: 60px;
+    line-height: 1,36;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    color: #fff;
 }
 .services-button{
-    font-family: 'Roboto';
-    font-style: normal;
+
     font-weight: 700;
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     display: flex;
     letter-spacing: 0.06em;
     color: #FFFFFF;  
 }
 .h3-Benefits {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .p-Benefits{
-    font-family: 'Roboto';
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
      color: #757575;
 }
 .work{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .team{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1,16;
     letter-spacing: 0.03em;
     color: #212121;
 }
 .name-team{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     letter-spacing: 0.03em;   
     color: #212121;
 }
 .position{
-    font-family: 'Roboto';
     font-size: 16px;
-    line-height: 19px;
+    line-height: 1,18;
     letter-spacing: 0.03em;
     color: #757575;
 }
 .maps{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: #FFFFFF;
 }
@@ -170,11 +177,9 @@
     color: #2196F3;
 }
 .footer-number-link {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 1,71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -183,19 +188,28 @@
     color: #2196F3;
 }
 .job{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
+    line-height: 2;
     letter-spacing: 0.06em;   
     color: #212121;
 }  
  .sites{
-    font-family: 'Roboto';
     font-size: 16px;
-    line-height: 30px;
+    line-height: 1,87;
     letter-spacing: 0.03em;
     color: #757575;
+ }
+ .visually-hidden{
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     margin: -1px;
+     border: 0;
+     padding: 0;
+     white-space: nowrap;
+     clip-path: inset(100%);
+     clip: rect(0 0 0 0);
+     overflow: hidden;
  }
         
