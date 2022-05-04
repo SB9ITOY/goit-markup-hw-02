@@ -99,6 +99,12 @@ address{
 
 }
 /* ------------------------------------------------------index main------------------------------------------------- */
+.header {
+    width:  1600px;
+    height: 80px;
+    border: #000000;
+    background-color: #ffffff;
+}
 .web {
     font-family: 'Raleway';
     font-style: normal;
