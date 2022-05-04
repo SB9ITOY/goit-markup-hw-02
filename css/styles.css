@@ -145,7 +145,12 @@ address{
     width: 1600px;
     height: 600px;
 }
+.menu{
+    width: 1170px;
+    height: 101px;
+    margin: 94px 215px;
 
+}
 .decision{
     padding: 200px 452px 30px 454px;
     font-weight: 900;
