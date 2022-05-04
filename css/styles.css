@@ -11,9 +11,18 @@ body{
     font-size: 14px;
     letter-spacing: 0.03em;
 }
-
+/* ***************** */
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+/* ***************** */
 address{
     font-style: normal;
+}
+.container{
+    width: 1200px;
 }
 .list{
     list-style: none;
@@ -57,6 +66,7 @@ address{
     color: var(--accent-color);
 }
 .services-button{
+    margin: 0 700px 200px 700px;
     font-family: 'Roboto', sans-serif;
     background-color: var(--accent-color);
     color: #fff;
@@ -126,9 +136,12 @@ address{
 }
 .hero{
     background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
 }
 
 .decision{
+    padding: 200px 452px 30px 454px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
